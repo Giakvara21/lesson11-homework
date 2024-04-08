@@ -110,7 +110,10 @@ li {
     background-color: black;
   }
   .header {
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
   }
   .header > h1 {
     grid-area: 1 / 1 / 1 / 1;
@@ -176,9 +179,10 @@ li {
     z-index: 6;
   }
   .text-container {
-    grid-area: 6 / 1 / 10 / 3;
-    padding-left: 20px;
+    grid-area: 5 / 3 / 9 / 1;
     color: white;
+    display: flex;
+    flex-direction: column;
   }
   .text-container > h2 {
     font-family: Oswald;
@@ -186,7 +190,7 @@ li {
   }
   .text-container > h1 {
     font-family: Ultra;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
   }
   .scroll-button {
